@@ -1,7 +1,7 @@
-from preswald import connect, get_df, table, text, plotly
+from preswald import connect, get_df, table, text, plotly，start_server
 import pandas as pd
 import plotly.express as px
-
+start_server()
 connect()
 
 df = pd.read_csv("data/titanic.csv")

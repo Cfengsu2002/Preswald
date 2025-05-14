@@ -1,4 +1,4 @@
-from preswald import connect, get_df, table, text, plotly，start_server
+from preswald import connect, get_df, table, text, plotly, start_server
 import pandas as pd
 import plotly.express as px
 start_server()
